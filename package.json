@@ -1,0 +1,11 @@
+{
+	"name": "TranslatorBot",
+	"version": "1.0.0",
+	"description": "TranslatorBot",
+	"main": "bot.js",
+	"author": "FireShad0w",
+	"dependencies": {
+		"discord.js": "^11.3.2",
+		"npm": "^6.0.0"
+	}
+}
