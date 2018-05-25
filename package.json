@@ -14,5 +14,7 @@
 		"node-opus": "^0.2.7",
 		"npm": "^6.0.0",
 		"opusscript": "0.0.6"
+		"npm install --save google-translate-api"
+
 	}
 }
