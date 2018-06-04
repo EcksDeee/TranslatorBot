@@ -26,6 +26,12 @@ client.on('message', msg => {
     const command = args.shift().toLowerCase();
     
     if (pref === config.prefix) {
+        
+        if (command === 'Status' && botstatus) {
+            msg.channel.send("Online!");
+        } else if (command === 'musichelp') {
+	        msg.channel.send("Music Commands!! Enjoy!\n:>play [song]: Plays Song\n:>skip: Skips Song Playing\n:>queue: Shows song queue\n:>pause: Pauses Song\n:>resume: Resumes Song\n:>vol [Number 1-100]: Sets Bot Volume\n:>leave: Causes Bot to Leave Channel\n:>clear: Clears Queue\n:>loop: Loops song/queue\n:>search [text]: Searches Text and Pulls Up Video Options");                
+
                 
                 
                 } else {
